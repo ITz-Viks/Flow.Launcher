@@ -8,7 +8,7 @@
     <system:String x:Key="flowlauncher_plugin_cmd_always_run_as_administrator">Ejecutar siempre como administrador</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_use_windows_terminal">Usar Terminal Windows</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_run_as_different_user">Ejecutar como usuario diferente</system:String>
-    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">Terminal</system:String>
+    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">ShellNew</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_plugin_description">Permite ejecutar comandos del sistema desde Flow Launcher</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_cmd_has_been_executed_times">este comando ha sido ejecutado {0} veces</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_execute_through_shell">ejecutar comando en la terminal</system:String>
