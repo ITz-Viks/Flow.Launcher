@@ -1,0 +1,13 @@
+{
+  "ID": "D409510CD0D2481F853690A07E6DC427",
+  "ActionKeywords": [">"],
+  "Name": "ShellNew",
+  "Description": "Provide executing commands from Flow Launcher",
+  "Author": "ITzViks",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/ITz-Viks/Flow.Launcher/tree/codex/rename-shell-plugins-to-shellnew",
+  "ExecuteFileName": "Flow.Launcher.Plugin.Shell.dll",
+  "AssemblyFileName": "Flow.Launcher.Plugin.Shell.dll",
+  "IcoPath": "Images\\shell.png"
+}
