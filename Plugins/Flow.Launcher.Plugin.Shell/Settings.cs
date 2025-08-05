@@ -41,5 +41,6 @@ namespace Flow.Launcher.Plugin.Shell
         Powershell = 1,
         RunCommand = 2,
         Pwsh = 3,
+        Nushell = 4,
     }
 }

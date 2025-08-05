@@ -286,6 +286,37 @@ namespace Flow.Launcher.Plugin.Shell
                         break;
                     }
 
+                case Shell.Nushell:
+                    {
+                        if (_settings.UseWindowsTerminal)
+                        {
+                            info.FileName = "wt.exe";
+                            info.ArgumentList.Add("nu");
+                        }
+                        else
+                        {
+                            info.FileName = "nu.exe";
+                        }
+                        info.ArgumentList.Add("-c");
+                        if (_settings.LeaveShellOpen)
+                        {
+                            info.ArgumentList.Add(
+                                $"{command}{addedCharacter}; nu" +
+                                $"{(_settings.CloseShellAfterPress ?
+                                    $" {addedCharacter}print '{notifyStr}'{addedCharacter}; input{addedCharacter}" :
+                                    "")}");
+                        }
+                        else
+                        {
+                            info.ArgumentList.Add(
+                                $"{command}{addedCharacter};" +
+                                $"{(_settings.CloseShellAfterPress ?
+                                    $" print '{notifyStr}'{addedCharacter}; input{addedCharacter}" :
+                                    "")}");
+                        }
+                        break;
+                    }
+
                 case Shell.RunCommand:
                     {
                         var parts = command.Split(new[]
