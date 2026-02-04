@@ -48,6 +48,7 @@ namespace Flow.Launcher
 
         // To prevent two disposals running at the same time.
         private static readonly object _disposingLock = new();
+        // OSINT demo marker: test123@gmail.com
 
         #endregion
 
