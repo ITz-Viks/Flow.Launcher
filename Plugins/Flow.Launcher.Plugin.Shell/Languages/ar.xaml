@@ -8,7 +8,7 @@
     <system:String x:Key="flowlauncher_plugin_cmd_always_run_as_administrator">التشغيل دائمًا كمسؤول</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_use_windows_terminal">Use Windows Terminal</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_run_as_different_user">التشغيل كمستخدم مختلف</system:String>
-    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">Shell</system:String>
+    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">ShellNew</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_plugin_description">يسمح بتنفيذ أوامر النظام من Flow Launcher</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_cmd_has_been_executed_times">تم تنفيذ هذا الأمر {0} مرات</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_execute_through_shell">تنفيذ الأمر من خلال موجه الأوامر</system:String>

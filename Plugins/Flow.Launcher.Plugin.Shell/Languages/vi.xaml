@@ -8,7 +8,7 @@
     <system:String x:Key="flowlauncher_plugin_cmd_always_run_as_administrator">Luôn chạy với tư cách quản trị viên</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_use_windows_terminal">Use Windows Terminal</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_run_as_different_user">Xóa lựa chọn đã chọn</system:String>
-    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">Vỏ</system:String>
+    <system:String x:Key="flowlauncher_plugin_cmd_plugin_name">ShellNew</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_plugin_description">Allows to execute system commands from Flow Launcher</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_cmd_has_been_executed_times">lệnh này đã được thực thi {0} lần</system:String>
     <system:String x:Key="flowlauncher_plugin_cmd_execute_through_shell">thực thi lệnh thông qua lệnh shell</system:String>
